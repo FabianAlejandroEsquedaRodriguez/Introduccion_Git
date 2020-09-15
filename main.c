@@ -2,6 +2,7 @@
 
 int main(){
     char nombre[100];
+    unsigned int edad;//Variable sin signom
     printf("Hola mundo!");
 
     printf("\n\nNombre: ");
@@ -10,6 +11,11 @@ int main(){
                                         //Desde la entrada de la terminal
 
     printf("Hola %s", nombre);
+
+    printf("\n\nEdad: ");
+    scanf("%u", &edad);
+
+    printf("\nVas a cumplir %u", edad + 1);
 
     return 0;
 }
