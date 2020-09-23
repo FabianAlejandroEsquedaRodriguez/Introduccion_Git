@@ -3,7 +3,7 @@
 int main(){
     char nombre[100];
     unsigned int edad;//Variable sin signom
-    printf("Hola mundo!");
+    //printf("Hola mundo!");
 
     printf("\n\nNombre: ");
     fgets(nombre, sizeof(nombre), stdin);//Donde se va a guardar eso que vamos a leer
